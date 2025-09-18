@@ -7,7 +7,7 @@ setup(
     name="aerodrome-swap-mcp",
     version="0.1.0",
     author="Aerodrome Swap Team",
-    author_email="contact@aerodrome.finance",
+    author_email="yi.zhou@netmind.ai",
     description="MCP server for Aerodrome Swap API",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -26,7 +26,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "aerodrome-swap-api=aerodrome_mcp.server:main",
+            "aerodrome-swap-mcp=aerodrome_mcp.server:main",
         ],
     },
 )

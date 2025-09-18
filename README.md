@@ -30,7 +30,17 @@ pip install -r requirements.txt
 
 ```bash
 # Start the MCP server
-npx aerodrome-swap-api
+npx aerodrome-swap-mcp
+```
+
+Or alternatively, you can install and run it locally:
+
+```bash
+# Install the package
+pip install -e .
+
+# Start the MCP server
+aerodrome-swap-mcp
 ```
 
 ## API Reference
