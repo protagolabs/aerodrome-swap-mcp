@@ -760,5 +760,8 @@ def get_transaction(tx_hash: str, target: str = "aero") -> Transaction:
         raise
 
 
-if __name__ == "__main__":
+def main():
     mcp.run(transport="stdio")
+
+if __name__ == "__main__":
+    main()
